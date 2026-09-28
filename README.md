@@ -1,2 +1,4 @@
 # diseno-interactivo-digital
-El repositorio será utilizado para almacenar las prácticas desarrolladas durante el curso
+Ariana Annelias Vela Velazquez 
+Diseño Interactivo Digital
+El repositorio será utilizado para almacenar las prácticas desarrolladas durante el curso.
