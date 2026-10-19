@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  padding: 0;
+  ffont-family: "Raleway", sans-serif;
+  background-image: url("../img/Textura8.png");
+  background-size: 100%;
+}
+
+h1{
+    color: #000000;
+    font-size: 28px;
+}
+
+h2{
+    font-size: 28px;
+    color: #000000;
+}
+
+h3{
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+#encabezado {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+#logotipo {
+    /*background-color: lemonchiffon;*/
+    height: 70px;
+    width: 200px;
+}
+
+
+#menu {
+    /*background-color: rgb(255, 232, 205);*/
+    height: 50px;
+    margin-top: 20px;
+    width: 750px;
+}
+
+#Menú ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+}
+
+#menu ul li {
+    display: inline;
+    margin-right: 10%;
+}
+
+/*---------Pseudoclases----------------*/
+#menu a:link { /*link Estado del enlace*/
+    color: #000000;
+    text-decoration: none;
+}
+
+#menu a:hover { /*hover Estado del enlace cuando posicionamos cursor encima*/
+    color: #000000;
+    text-decoration: underline;
+}
+
+#menu a:visited { /*visited Estado del enlace una vez que le damos click*/
+    color: #000000;
+}
+
+/*----------- Portada ------------*/
+#imgportada {
+    margin: 0 auto;
+    width: 960px;
+    height: 400px;
+}
+
+
+/*----------- Sección Acerca de Mi ------------*/
+#acercademi {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#textoacercademi {
+    text-align: center;
+    width: 100%;
+}
+
+#perfil {
+    display: flex;
+    width: 960px;
+}
+
+
+#imgperfil {
+    width: 280px;
+    height: 300px;
+}
+
+#presentacion {
+    text-align: center;
+    width: 600px;
+
+}
+
+#Habilidadesyconocimientos {
+    display: flex;
+    width: 600px;
+}
+
+#Habilidadesyconocimientos ul {
+    list-style: none;
+}
+
+.habilidades {
+    width: 200px;
+}
+
+#descarga {
+    text-align: center;
+    width: 100%;
+}
+
+
+/*----------- Portafolio ------------*/
+#portafolio {
+    background-color: #8698b0;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+#trabajos {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    font-size: 10px;
+}
+
+.boton {
+    margin: 0 auto;
+    height: 50px;
+    width: 150px;
+    background-color: #657591;
+}
+
+.boton p {
+    padding-top: 15px;
+}
+
+.boton a:hover {
+    background-color: #41e395;
+}
+
+.boton a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.boton:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*-------------- Sección contacto ---------------*/
+#contacto {
+    background-color: #353333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#contacto h2 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+#redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 25px 0 35px;
+}
+
+#redes-sociales a {
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+#redes-sociales a:hover {
+    color: #ff7d7d;
+}
+
+#contacto .copyright {
+    font-size: 14px;
+    margin-top: 30px;
+}
