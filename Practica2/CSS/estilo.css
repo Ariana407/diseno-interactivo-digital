@@ -1,0 +1,327 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  background-image: url("../img/Textura1.png");
+  background-size: 100%;
+}
+
+
+.boton {
+    display: inline-block;
+    padding: 12px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.boton:hover {
+    background-color: white;
+}
+
+h1{
+    color: #000000;
+    font-size: 28px;
+}
+
+h2{
+    font-size: 28px;
+    color: #000000;
+}
+
+h3{
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+#encabezado {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+#logotipo {
+    /*background-color: lemonchiffon;*/
+    height: 70px;
+    width: 200px;
+}
+
+
+#menu {
+    /*background-color: rgb(255, 232, 205);*/
+    height: 50px;
+    margin-top: 20px;
+    width: 750px;
+}
+
+#Menú ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+}
+
+#menu ul li {
+    display: inline;
+    margin-right: 10%;
+}
+
+/*---------Pseudoclases----------------*/
+#menu a:link { /*link Estado del enlace*/
+    color: #000000;
+    text-decoration: none;
+}
+
+#menu a:hover { /*hover Estado del enlace cuando posicionamos cursor encima*/
+    color: #000000;
+    text-decoration: underline;
+}
+
+#menu a:visited { /*visited Estado del enlace una vez que le damos click*/
+    color: #000000;
+}
+
+/*----------- Portada ------------*/
+#imgportada {
+    margin: 0 auto;
+    width: 960px;
+    height: 400px;
+}
+
+
+/*----------- Sección Acerca de Mi ------------*/
+#acercademi {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#textoacercademi {
+    text-align: center;
+    width: 100%;
+}
+
+#perfil {
+    display: flex;
+    width: 960px;
+}
+
+
+#imgperfil {
+    width: 280px;
+    height: 300px;
+}
+
+#presentacion {
+    text-align: center;
+    width: 600px;
+
+}
+
+#Habilidadesyconocimientos {
+    display: flex;
+    width: 600px;
+}
+
+#Habilidadesyconocimientos ul {
+    list-style: none;
+}
+
+.habilidades {
+    width: 200px;
+}
+
+#descarga {
+    text-align: center;
+    width: 100%;
+}
+
+
+/*----------- Portafolio ------------*/
+#portafolio {
+    background-color: #faad3a;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+#trabajos {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    font-size: 10px;
+}
+
+.boton {
+    margin: 0 auto;
+    height: 50px;
+    width: 150px;
+    background-color: #faad3a;
+}
+
+.boton p {
+    padding-top: 15px;
+}
+
+.boton a:hover {
+    background-color: #fff;
+}
+
+
+
+
+
+/*-------------- Sección contacto ---------------*/
+#contacto {
+    background-color: #b7acac;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#contacto h2 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+#redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 25px 0 35px;
+}
+
+#redes-sociales a {
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+#redes-sociales a:hover {
+    color: #faad3a;
+}
+
+#contacto .copyright {
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+
+/* CONTENIDO */
+
+.proyecto {
+    width: 86%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.proyecto-intro {
+    padding: 100px 0 65px;
+}
+
+.etiqueta {
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #a58d79;
+    font-weight: 700;
+}
+
+.proyecto-intro h1 {
+    font-size: clamp(42px, 7vw, 90px);
+    font-weight: 700;
+    line-height: 1.08;
+    letter-spacing: -3px;
+    margin: 25px 0;
+}
+
+.proyecto-intro p {
+    font-size: 17px;
+    color: #777;
+    line-height: 1.8;
+    max-width: 550px;
+}
+
+/* IMAGEN PRINCIPAL */
+
+.imagen-principal img {
+    width: 100%;
+    max-height: 650px;
+    object-fit: cover;
+    display: block;
+}
+
+/* DESCRIPCIÓN */
+
+.descripcion-proyecto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    padding: 100px 0;
+}
+
+.descripcion-proyecto h2 {
+    font-size: 38px;
+    line-height: 1.2;
+    margin-top: 20px;
+}
+
+.descripcion-proyecto p {
+    color: #666;
+    line-height: 1.9;
+    font-size: 15px;
+}
+
+.datos-proyecto {
+    margin-top: 35px;
+    padding-top: 20px;
+}
+
+.datos-proyecto strong {
+    color: #222;
+}
+
+/* GALERÍA */
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.galeria img {
+    width: 100%;
+    height: 440px;
+}
+
+/* BOTÓN */
+
+.regresar {
+    padding: 85px 0;
+}
+
+.boton {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    padding: 16px 26px;
+    color: #222;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* PIE DE PÁGINA */
+
+.pie-proyecto {
+    text-align: center;
+    padding: 30px;
+    color: #000000;
+    font-size: 12px;
+}
+
+
